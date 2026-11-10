@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CxO Presence Heartbeat — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#0e172b; --card:#14203a; --ink:#ecf0f8; --mute:#96a5be; --accent:#2ed4a8;
+    --line:#223253;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 20px 80px}
+  .pulse{height:3px;background:linear-gradient(90deg,transparent,var(--accent),transparent);
+    border-radius:3px;margin-bottom:28px}
+  h1{font-size:30px;margin:0 0 4px}
+  .updated{color:var(--mute);font-size:14px;margin-bottom:28px}
+  h2{font-size:19px;margin:34px 0 10px;color:var(--ink)}
+  p,li{color:var(--ink)}
+  .mute{color:var(--mute)}
+  ul{padding-left:22px}
+  li{margin:6px 0}
+  code{background:var(--card);border:1px solid var(--line);border-radius:5px;
+    padding:1px 6px;font-size:14px;color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:18px 22px;margin:18px 0}
+  .no li{color:var(--accent)}
+  a{color:var(--accent)}
+  footer{margin-top:40px;color:var(--mute);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="pulse"></div>
+  <h1>CxO Presence Heartbeat — Privacy Policy</h1>
+  <div class="updated">Last updated: 10 November 2026</div>
+
+  <p>CxO Presence Heartbeat is an internal tool operated by CxO Institute and
+  force-installed to managed staff Chrome profiles. This policy explains exactly
+  what it collects and what it does not.</p>
+
+  <h2>What it collects</h2>
+  <p>For a managed <code>@cxo-institute.com</code> Chrome profile, and only while the
+  browser is actively in use, the extension records:</p>
+  <ul>
+    <li>the <strong>account email address</strong> of the signed-in profile, and</li>
+    <li>a <strong>15-minute time block</strong> in which Chrome was active ("presence").</li>
+  </ul>
+  <div class="card">A single record contains only these two things, for example:
+  <code>person@cxo-institute.com</code> was active during <code>09:15–09:30 on 2026-11-10</code>.</div>
+
+  <h2>What it never collects</h2>
+  <p>The extension does <strong>not</strong> collect, read, store, or transmit:</p>
+  <ul class="no">
+    <li>URLs, web addresses, or domains you visit;</li>
+    <li>page titles or page content;</li>
+    <li>tabs, tab lists, or navigation history;</li>
+    <li>search queries, keystrokes, clicks, or form data;</li>
+    <li>anything about which websites or applications you use.</li>
+  </ul>
+  <p class="mute">It requests no <code>tabs</code> permission and no access to page
+  content, so it is technically incapable of observing your browsing.</p>
+
+  <h2>How it is used</h2>
+  <p>Presence blocks are aggregated into the organisation's internal HR activity
+  dashboard to show working-hours activity for staff whose work is otherwise not
+  visible in Google Workspace audit logs. It is used only for this internal
+  workforce-reporting purpose.</p>
+
+  <h2>Who can see it and where it is stored</h2>
+  <p>Data is sent over HTTPS to a CxO-controlled endpoint and stored in a CxO
+  Cloudflare database hosted in the West Europe region. Access is limited to CxO
+  Institute IT and HR. It is <strong>not</strong> sold, shared with third parties,
+  or used for advertising, profiling, creditworthiness, or any purpose unrelated to
+  the internal activity dashboard.</p>
+
+  <h2>Scope</h2>
+  <p>Only managed <code>@cxo-institute.com</code> profiles report. Personal Google
+  profiles and signed-out browsing are ignored entirely.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data: contact CxO Institute IT at
+  <a href="mailto:darryl.namayan@cxo-institute.com">darryl.namayan@cxo-institute.com</a>.</p>
+
+  <footer>CxO Institute · Internal tool · IT-836</footer>
+</div>
+</body>
+</html>
